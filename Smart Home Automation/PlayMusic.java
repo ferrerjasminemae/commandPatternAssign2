@@ -17,7 +17,6 @@ public class PlayMusic implements Command{
         String artist = sc.nextLine();
         return MusicPlayer.setMusic(title, artist);
         
-        
     }
     
 }
